@@ -1,0 +1,255 @@
+body{
+    background-color: #e7cc8f;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Homepage */
+
+.screen{
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.headerul {
+    margin: 0px;
+    padding: 16px;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.300) 80%, rgba(0, 0, 0, 0));
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.headname{
+    font-family: 'Patrick Hand', cursive;
+    color: #e7cc8f;
+    width: 300px;
+    display: flex;
+    flex-flow: column wrap;
+}
+.headname h3{
+    margin: 0px;
+    font-size: 30px;
+    text-shadow: 1px 1px 2px #48120e, -1px -1px 2px #48120e;    
+}
+.headname p{
+    margin: 0px;
+    font-size: 18px;
+    text-shadow: 1px 1px 2px #48120e, -1px -1px 2px #48120e;
+}
+li {
+    font-size: 35px;
+    display: inline-flex;
+    justify-content: space-around;
+    flex-direction: center;
+}
+li i{
+    padding: 8px;
+    color: #e7cc8f;
+    text-shadow: 1px 1px 2px #ab3e16;
+}
+li a:hover{
+    border: 3px solid #e7cc8f;
+    border-style: none none solid none;
+    margin-top: 5px;
+    transition: 150ms;
+}
+
+/* Fill Page Section */
+
+.page1{
+    height: 800px;
+    background-image: url("webdesign-1234567.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.wood{
+    width: 100%;
+    height: 100%;
+    max-width: 1400px;
+}
+.title{
+    width: 700px;
+    height: auto;
+    color: #e7d3a3;
+    text-shadow: 1px 1px 2px #48120e, -1px -1px 2px #48120e;
+    text-align: left;
+    margin: 160px 64px auto 500px;
+}
+.title h1{
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 120px;
+    Margin: 32px 0px;  
+}
+.title h3{
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 32px;
+}
+
+.page2{
+    width: 100%;
+    height: 700px;
+    background-color: #efaa52;
+    display: flex;
+    flex-direction: row;
+}
+.image2 div{
+    width: 100%;
+    height: 100%;
+    max-width: 600px;
+    max-height: 500px;
+}
+.img1{
+    width: 100%;
+    height: auto;
+    margin: 100px 0px 100px auto;
+    background-image: url("old-1130734.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    background-position-y: 50%;
+}
+.img2{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    position: absolute;
+    bottom: 48%;
+    right: 20%;
+    transform: scale(0.7,0.7);
+    background-image: url("lens-2032783.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    background-position-y: 50%;
+}
+.text2 div{
+    max-width: 500px;
+}  
+.text2{
+    width: 50%;
+    height: 700px;
+    margin: 0;
+    padding: 0px 32px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+}
+.image2{
+    width: 50%;
+    height: 700px;
+    margin: 0;
+    padding: 0px;
+    text-align: center;
+    display: block;
+    overflow: hidden;
+}
+
+
+.page3{
+    width: 100%;
+    height: 500px;
+    max-height: 500px;
+    background-image: url("peacock-188018.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    overflow: hidden;
+}
+.peacock{
+    width: 50%;
+    position: relative;
+    font-family: 'Courgette', cursive;
+}
+.caption{
+    width: 50%;
+    text-align: left;
+    color: black;
+    margin: 0;
+    padding: 120px 32px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+.caption div{
+    width: 100%;
+}
+
+.page4{
+    width: 100%;
+    height: 700px;
+    background-color: #e7cc8f;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.text4{
+    width: 50%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+.text5{
+    width: 50%;
+    height: auto;
+    margin: 64px 0 0 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Footer Section */
+
+.footer{
+    background-color: #ab3e16;
+    color: #f8f3e6;
+    padding: 16px;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+}
+.footcontent i{
+    font-size: 25px;
+    color: #48120e;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background: #efaa52;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footerul{
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    margin: 0px;
+}
+.kontak{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 16px;
+}
+.fitur{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.fitur p{
+    padding: 0px 8px;
+}
+.fitur i:hover{
+    background-color: #e7cc8f;
+    cursor: pointer;
+}
+.sosmed:link, .sosmed:visited, .sosmed:hover, .sosmed:active{
+    text-decoration: none;
+    background-color: #f8f3e6;
+    color: #f8f3e6;
+}
+.credit p{
+    margin: 0px;
+}
